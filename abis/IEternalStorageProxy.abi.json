@@ -1,0 +1,285 @@
+{
+  "contractName": "IEternalStorageProxy",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "name": "upgradeTo",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "sourceMap": "",
+  "deployedSourceMap": "",
+  "source": "pragma solidity ^0.4.24;\n\n\ninterface IEternalStorageProxy {\n    function upgradeTo(address) external returns(bool);\n}",
+  "sourcePath": "/home/moc/poa-network-consensus-contracts/contracts/interfaces/IEternalStorageProxy.sol",
+  "ast": {
+    "absolutePath": "/home/moc/poa-network-consensus-contracts/contracts/interfaces/IEternalStorageProxy.sol",
+    "exportedSymbols": {
+      "IEternalStorageProxy": [
+        13788
+      ]
+    },
+    "id": 13789,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 13780,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".24"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:22"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "documentation": null,
+        "fullyImplemented": false,
+        "id": 13788,
+        "linearizedBaseContracts": [
+          13788
+        ],
+        "name": "IEternalStorageProxy",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": null,
+            "documentation": null,
+            "id": 13787,
+            "implemented": false,
+            "isConstructor": false,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "upgradeTo",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 13783,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 13782,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 13787,
+                  "src": "83:7:22",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 13781,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "83:7:22",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "82:9:22"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 13786,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 13785,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 13787,
+                  "src": "109:4:22",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 13784,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "109:4:22",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "108:6:22"
+            },
+            "scope": 13788,
+            "src": "64:51:22",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "external"
+          }
+        ],
+        "scope": 13789,
+        "src": "27:90:22"
+      }
+    ],
+    "src": "0:117:22"
+  },
+  "legacyAST": {
+    "absolutePath": "/home/moc/poa-network-consensus-contracts/contracts/interfaces/IEternalStorageProxy.sol",
+    "exportedSymbols": {
+      "IEternalStorageProxy": [
+        13788
+      ]
+    },
+    "id": 13789,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 13780,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".24"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:22"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "documentation": null,
+        "fullyImplemented": false,
+        "id": 13788,
+        "linearizedBaseContracts": [
+          13788
+        ],
+        "name": "IEternalStorageProxy",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": null,
+            "documentation": null,
+            "id": 13787,
+            "implemented": false,
+            "isConstructor": false,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "upgradeTo",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 13783,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 13782,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 13787,
+                  "src": "83:7:22",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 13781,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "83:7:22",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "82:9:22"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 13786,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 13785,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 13787,
+                  "src": "109:4:22",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 13784,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "109:4:22",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "108:6:22"
+            },
+            "scope": 13788,
+            "src": "64:51:22",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "external"
+          }
+        ],
+        "scope": 13789,
+        "src": "27:90:22"
+      }
+    ],
+    "src": "0:117:22"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.4.24+commit.e67f0147.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "2.0.1",
+  "updatedAt": "2018-11-18T08:20:25.927Z"
+}

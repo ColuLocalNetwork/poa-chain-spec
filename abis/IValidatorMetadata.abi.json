@@ -1,0 +1,408 @@
+{
+  "contractName": "IValidatorMetadata",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "name": "clearMetadata",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "",
+          "type": "address"
+        },
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "name": "moveMetadata",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "sourceMap": "",
+  "deployedSourceMap": "",
+  "source": "pragma solidity ^0.4.24;\n\n\ninterface IValidatorMetadata {\n    function clearMetadata(address) external;\n    function moveMetadata(address, address) external;\n}\n",
+  "sourcePath": "/home/moc/poa-network-consensus-contracts/contracts/interfaces/IValidatorMetadata.sol",
+  "ast": {
+    "absolutePath": "/home/moc/poa-network-consensus-contracts/contracts/interfaces/IValidatorMetadata.sol",
+    "exportedSymbols": {
+      "IValidatorMetadata": [
+        14186
+      ]
+    },
+    "id": 14187,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 14173,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".24"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:28"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "documentation": null,
+        "fullyImplemented": false,
+        "id": 14186,
+        "linearizedBaseContracts": [
+          14186
+        ],
+        "name": "IValidatorMetadata",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": null,
+            "documentation": null,
+            "id": 14178,
+            "implemented": false,
+            "isConstructor": false,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "clearMetadata",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 14176,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 14175,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 14178,
+                  "src": "85:7:28",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 14174,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "85:7:28",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "84:9:28"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 14177,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "102:0:28"
+            },
+            "scope": 14186,
+            "src": "62:41:28",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "external"
+          },
+          {
+            "body": null,
+            "documentation": null,
+            "id": 14185,
+            "implemented": false,
+            "isConstructor": false,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "moveMetadata",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 14183,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 14180,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 14185,
+                  "src": "130:7:28",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 14179,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "130:7:28",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 14182,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 14185,
+                  "src": "139:7:28",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 14181,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "139:7:28",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "129:18:28"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 14184,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "156:0:28"
+            },
+            "scope": 14186,
+            "src": "108:49:28",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "external"
+          }
+        ],
+        "scope": 14187,
+        "src": "27:132:28"
+      }
+    ],
+    "src": "0:160:28"
+  },
+  "legacyAST": {
+    "absolutePath": "/home/moc/poa-network-consensus-contracts/contracts/interfaces/IValidatorMetadata.sol",
+    "exportedSymbols": {
+      "IValidatorMetadata": [
+        14186
+      ]
+    },
+    "id": 14187,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 14173,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".24"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:28"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "documentation": null,
+        "fullyImplemented": false,
+        "id": 14186,
+        "linearizedBaseContracts": [
+          14186
+        ],
+        "name": "IValidatorMetadata",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": null,
+            "documentation": null,
+            "id": 14178,
+            "implemented": false,
+            "isConstructor": false,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "clearMetadata",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 14176,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 14175,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 14178,
+                  "src": "85:7:28",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 14174,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "85:7:28",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "84:9:28"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 14177,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "102:0:28"
+            },
+            "scope": 14186,
+            "src": "62:41:28",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "external"
+          },
+          {
+            "body": null,
+            "documentation": null,
+            "id": 14185,
+            "implemented": false,
+            "isConstructor": false,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "moveMetadata",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 14183,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 14180,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 14185,
+                  "src": "130:7:28",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 14179,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "130:7:28",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 14182,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 14185,
+                  "src": "139:7:28",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 14181,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "139:7:28",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "129:18:28"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 14184,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "156:0:28"
+            },
+            "scope": 14186,
+            "src": "108:49:28",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "external"
+          }
+        ],
+        "scope": 14187,
+        "src": "27:132:28"
+      }
+    ],
+    "src": "0:160:28"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.4.24+commit.e67f0147.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "2.0.1",
+  "updatedAt": "2018-11-18T08:20:25.842Z"
+}

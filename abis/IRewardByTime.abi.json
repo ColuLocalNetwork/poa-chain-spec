@@ -1,0 +1,322 @@
+{
+  "contractName": "IRewardByTime",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "reward",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address[]"
+        },
+        {
+          "name": "",
+          "type": "uint256[]"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "sourceMap": "",
+  "deployedSourceMap": "",
+  "source": "pragma solidity ^0.4.24;\n\n\ninterface IRewardByTime {\n    function reward() external returns (address[], uint256[]);\n}\n",
+  "sourcePath": "/home/moc/poa-network-consensus-contracts/contracts/interfaces/IRewardByTime.sol",
+  "ast": {
+    "absolutePath": "/home/moc/poa-network-consensus-contracts/contracts/interfaces/IRewardByTime.sol",
+    "exportedSymbols": {
+      "IRewardByTime": [
+        14171
+      ]
+    },
+    "id": 14172,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 14161,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".24"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:27"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "documentation": null,
+        "fullyImplemented": false,
+        "id": 14171,
+        "linearizedBaseContracts": [
+          14171
+        ],
+        "name": "IRewardByTime",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": null,
+            "documentation": null,
+            "id": 14170,
+            "implemented": false,
+            "isConstructor": false,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "reward",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 14162,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "72:2:27"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 14169,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 14165,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 14170,
+                  "src": "93:9:27",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_array$_t_address_$dyn_memory_ptr",
+                    "typeString": "address[]"
+                  },
+                  "typeName": {
+                    "baseType": {
+                      "id": 14163,
+                      "name": "address",
+                      "nodeType": "ElementaryTypeName",
+                      "src": "93:7:27",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_address",
+                        "typeString": "address"
+                      }
+                    },
+                    "id": 14164,
+                    "length": null,
+                    "nodeType": "ArrayTypeName",
+                    "src": "93:9:27",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_array$_t_address_$dyn_storage_ptr",
+                      "typeString": "address[]"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 14168,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 14170,
+                  "src": "104:9:27",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_array$_t_uint256_$dyn_memory_ptr",
+                    "typeString": "uint256[]"
+                  },
+                  "typeName": {
+                    "baseType": {
+                      "id": 14166,
+                      "name": "uint256",
+                      "nodeType": "ElementaryTypeName",
+                      "src": "104:7:27",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "id": 14167,
+                    "length": null,
+                    "nodeType": "ArrayTypeName",
+                    "src": "104:9:27",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_array$_t_uint256_$dyn_storage_ptr",
+                      "typeString": "uint256[]"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "92:22:27"
+            },
+            "scope": 14171,
+            "src": "57:58:27",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "external"
+          }
+        ],
+        "scope": 14172,
+        "src": "27:90:27"
+      }
+    ],
+    "src": "0:118:27"
+  },
+  "legacyAST": {
+    "absolutePath": "/home/moc/poa-network-consensus-contracts/contracts/interfaces/IRewardByTime.sol",
+    "exportedSymbols": {
+      "IRewardByTime": [
+        14171
+      ]
+    },
+    "id": 14172,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 14161,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".24"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:27"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "documentation": null,
+        "fullyImplemented": false,
+        "id": 14171,
+        "linearizedBaseContracts": [
+          14171
+        ],
+        "name": "IRewardByTime",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": null,
+            "documentation": null,
+            "id": 14170,
+            "implemented": false,
+            "isConstructor": false,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "reward",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 14162,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "72:2:27"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 14169,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 14165,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 14170,
+                  "src": "93:9:27",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_array$_t_address_$dyn_memory_ptr",
+                    "typeString": "address[]"
+                  },
+                  "typeName": {
+                    "baseType": {
+                      "id": 14163,
+                      "name": "address",
+                      "nodeType": "ElementaryTypeName",
+                      "src": "93:7:27",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_address",
+                        "typeString": "address"
+                      }
+                    },
+                    "id": 14164,
+                    "length": null,
+                    "nodeType": "ArrayTypeName",
+                    "src": "93:9:27",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_array$_t_address_$dyn_storage_ptr",
+                      "typeString": "address[]"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 14168,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 14170,
+                  "src": "104:9:27",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_array$_t_uint256_$dyn_memory_ptr",
+                    "typeString": "uint256[]"
+                  },
+                  "typeName": {
+                    "baseType": {
+                      "id": 14166,
+                      "name": "uint256",
+                      "nodeType": "ElementaryTypeName",
+                      "src": "104:7:27",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "id": 14167,
+                    "length": null,
+                    "nodeType": "ArrayTypeName",
+                    "src": "104:9:27",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_array$_t_uint256_$dyn_storage_ptr",
+                      "typeString": "uint256[]"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "92:22:27"
+            },
+            "scope": 14171,
+            "src": "57:58:27",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "external"
+          }
+        ],
+        "scope": 14172,
+        "src": "27:90:27"
+      }
+    ],
+    "src": "0:118:27"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.4.24+commit.e67f0147.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "2.0.1",
+  "updatedAt": "2018-11-18T08:20:25.842Z"
+}
